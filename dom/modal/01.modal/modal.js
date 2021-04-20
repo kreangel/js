@@ -21,7 +21,7 @@ openButton.addEventListener("click", e => {
     const contentElement = document.createElement("div");
     contentElement.classList.add("content");
 
-    contentElement.innerHTML = "Hello world!";
+    contentElement.innerHTML = "Hello <b>world</b>!";
 
     const closeElement = document.createElement("a");
     closeElement.classList.add("close");    
